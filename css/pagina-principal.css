@@ -1,0 +1,178 @@
+@import url('global.css');
+
+.layout-page-container {
+  background-color: white;
+  display: flex;
+  width: 100vw; /* view width */
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  width: 82%; /* o qual tem como flex-items as tags header, section e footer */
+}
+
+nav {
+  width: 18%;
+  background-color: #BFD8EF;
+  display: flex;
+  justify-content: center;
+}
+
+.menu-container {
+  display: flex;
+  flex-flow: column wrap;
+  margin-top: 75px;
+  gap: 35px;
+}
+
+.menu-container p {
+  text-align: center;
+  font-size: 22px;
+  font-weight: 700;
+}
+
+.menu-container li {
+  text-align: center;
+  margin: 35px 10px;
+  list-style: none;
+  width: 200px;
+  border: 1px black solid;
+}
+
+.menu-container a {
+  text-decoration: none;
+  color: black;
+  text-align: center;
+  font-size: 20px;
+  display: block;
+  padding: 10px 20px;
+}
+
+.menu-container a:hover {
+  background-color: rgba(255, 255, 255, 0.20);
+  cursor: pointer;
+  color: #E05E00;
+  transition: 0.15s;
+}
+
+.menu-container a:active {
+  transition: 0.10s;
+  background-color: rgba(0, 0, 0, 0.10);
+}
+
+#pagina-atual {
+  background-color: rgba(255, 255, 255, 0.40);
+  border-color: #E05E00;
+}
+
+#pagina-atual a {
+  color: #E05E00;
+}
+
+header {
+  background: linear-gradient(rgba(255, 255, 255, 0.50), rgba(255, 255, 255, 0.50)), linear-gradient(rgba(0, 0, 0, 0.37), rgba(0, 0, 0, 0.37)), url('../assets/img/pagina-principal-header.jpg');
+  width: 82vw;
+  height: 23vh;
+  background-size: cover;
+  background-position: center 55%;
+}
+
+.banner-logo {
+  display: inline-flex;
+  margin: 25px 60px;
+  flex-basis: 0;
+  align-items: center;
+}
+
+.banner-logo img {
+  width: 170px;
+}
+
+#nome-clinica {
+  font-size: 60px;
+  font-weight: 600;
+}
+
+#slogan-clinica {
+  font-size: 32px;
+  font-weight: 200;
+  margin-left: 6px;
+}
+
+section {
+  box-sizing: border-box;
+  height: 65vh;
+  padding: 70px 100px;
+}
+
+.music-branding h1 {
+  margin-bottom: 20px;
+  font-size: 40px;
+  font-weight: 700;
+}
+
+.music-branding p {
+  font-size: 30px;
+  margin-bottom: 80px;
+}
+
+section > p {
+  font-size: 23px;
+  width: 700px;
+}
+
+footer {
+  background-color: #BABABA;
+  height: 12vh;
+  /* line-height: 20px; */
+  padding: 30px;
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+.contatos {
+  display: flex;
+  flex-direction: row;
+  margin-top: 10px;
+}
+
+.contatos p {
+  text-indent: 8px;
+  letter-spacing: 1px;
+}
+
+.contatos div {
+  display: inline-flex;
+  /* padding: 5px; */
+  margin-right: 35px;
+}
+
+.contatos div a {
+  text-decoration: none;
+  color: black;
+}
+
+.contatos div a:hover {
+  text-decoration: underline;
+}
+
+footer img {
+  width: 20px;
+}
+
+.instagram {
+  order: -3;
+}
+
+.whatsapp {
+  order: -1;
+}
+
+.telefone-fixo {
+  order: 0;
+}
+
+.email {
+  order: -2;
+}

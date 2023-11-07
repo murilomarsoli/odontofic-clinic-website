@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Odontofic Clinic</title>
+  <link rel="stylesheet" href="../css/localizacao-contato.css">
+</head>
+<body>
+  <div class="layout-page-container">
+    <nav>
+      <div class="menu-container">
+      <p>MENU</p>
+        <ul>
+          <li><a href="../pagina-principal.html">Página principal</a></li>
+          <li><a href="sobre-a-clinica.html">Sobre a clínica</a></li>
+          <li><a href="horarios-atendimentos.html">Horários de atendimento</a></li>
+          <li id="pagina-atual"><a href="localizacao-contato.html">Localização e contato</a></li>
+        </ul>
+      </div>
+    </nav>
+    <main>
+      <header>
+        <div class="banner-logo">
+          <img src="../assets/img/Logo.svg" alt="Desenho de um dente como logo da clínica odontológica">
+          <div class="nome-slogan">
+            <p id="nome-clinica">Odontofic Clinic</p>
+            <p id="slogan-clinica">É sobre sorrir e está tudo bem.</p>
+          </div>
+        </div>
+      </header>
+      <section class="content">
+        <h1>Localização e contato</h1>
+        <div class="conteudo-principal">
+          <div class="fale-conosco">
+            <h2>Fale conosco</h2>
+            <form name="contato" action="#" method="get">
+              <div>
+                <label for="nome-completo">Nome completo: </label>
+                <input type="text" placeholder="Digite seu nome completo" name="ipt-nome-completo">
+              </div>
+              <div>
+                <label for="email">Email:</label>
+                <input type="email" placeholder="Digite seu e-mail" name="email">
+              </div>
+              <div>
+                <label for="assunto">Assunto:</label>
+                <input type="text" placeholder="Assunto da mensagem" name="assunto">
+              </div>
+              <div>
+                <label for="mensagem">Mensagem:</label>
+                <textarea name="mensagem" placeholder="Digite a mensagem" id="msg" cols="35" rows="4"></textarea>
+              </div>
+              <div>
+                <button type="submit">Enviar</button>
+              </div>
+            </form>
+          </div>
+          <div>
+            <h2>Visite a nossa clínica</h2>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d467695.6197500996!2d-47.219129508469955!3d-23.680533994874242!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce5a08c3b44cb7%3A0x988947deddbd766!2sBourbon%20Convention!5e0!3m2!1spt-BR!2sbr!4v1696695040801!5m2!1spt-BR!2sbr" width="500" height="350" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"><!-- Localização --></iframe>
+          </div>
+        </div>
+      </section>
+      <footer>
+        <p>Acompanhe nosso trabalho nas redes sociais e entre em contato:</p>
+        <div class="contatos">
+          <div class="instagram">
+            <img src="../assets/icon/instagram_2111463 (1).png" alt="logo que representa a rede social instagram">
+            <p><a href="#">@odontoficclinic</a></p>
+          </div>
+          <div class="whatsapp">
+            <img src="../assets/icon/whatsapp_2504957.png" alt="logo que representa o aplicativo de mensagens whatsapp">
+            <p>(11) 912345-6789</p>
+          </div>
+          <div class="telefone-fixo">
+            <img src="../assets/icon/phone-call_597177.png" alt="logo que representa o telefone fixo">
+            <p>(11) 1234-5678</p>
+          </div>
+          <div class="email">
+            <img src="../assets/icon/mail_646094.png" alt="logo que representa o endereço de email">
+            <p>odontoficclinic@gmail.com</p>
+          </div>
+        </div>
+      </footer>
+    </main>
+  </div>
+</body>
+</html>
