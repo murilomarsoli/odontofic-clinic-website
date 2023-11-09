@@ -37,19 +37,19 @@
             <form name="contato" action="#" method="get">
               <div>
                 <label for="nome-completo">Nome completo: </label>
-                <input type="text" placeholder="Digite seu nome completo" name="ipt-nome-completo">
+                <input type="text" placeholder="Digite seu nome completo" name="ipt-nome-completo" required>
               </div>
               <div>
                 <label for="email">Email:</label>
-                <input type="email" placeholder="Digite seu e-mail" name="email">
+                <input type="email" placeholder="Digite seu e-mail" name="email" required>
               </div>
               <div>
                 <label for="assunto">Assunto:</label>
-                <input type="text" placeholder="Assunto da mensagem" name="assunto">
+                <input type="text" placeholder="Assunto da mensagem" name="assunto" required>
               </div>
               <div>
                 <label for="mensagem">Mensagem:</label>
-                <textarea name="mensagem" placeholder="Digite a mensagem" id="msg" cols="35" rows="4"></textarea>
+                <textarea name="mensagem" placeholder="Digite a mensagem" id="msg" cols="35" rows="4" required></textarea>
               </div>
               <div>
                 <button type="submit">Enviar</button>
