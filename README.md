@@ -1,6 +1,6 @@
 # odontofic-clinic-website
 
-Este projeto foi inspirado pelo curso de html da dio porém totalmente realizado por mim, do zero, onde venho implementando todo o html, css e javascript possível enquanto vou adquirindo mais conhecimento nestes segmentos.
+Projeto com a finalidade de implementar todo o html, css e javascript possível enquanto vou adquirindo conhecimento nestas tecnologias.
 
 ## Acesse a página: [https://murilomarsoli.github.io/odontofic-clinic-website/](https://murilomarsoli.github.io/odontofic-clinic-website/)
 
