@@ -4,4 +4,4 @@ Projeto com a finalidade de implementar todo o html, css e javascript possível 
 
 ## Acesse a página: [https://murilomarsoli.github.io/odontofic-clinic-website/](https://murilomarsoli.github.io/odontofic-clinic-website/)
 
-![Homepage Odontofic Clinic](imgGithub/homepage.png)
+![Homepage Odontofic Clinic](imgGitHub/homepage.png)
