@@ -40,7 +40,7 @@ function checkInputFullName() {
 
   if(fullNameValue === "") {
     errorInput(fullName, "Insira seu nome completo.");
-  }else if(fullNameValue.length < 10){
+  }else if(fullNameValue.length < 8){
     errorInput(fullName, "O nome completo deve conter no mínimo 8 caracteres.");
   }else{
     const formItem = fullName.parentElement;
@@ -74,6 +74,7 @@ function checkInputTitle() {
     formItem.className = "form-content";
   }
 }
+
   // Checar o input "message"
 function checkInputMessage() {
   const messageValue = message.value;
