@@ -35,28 +35,35 @@
         <div class="conteudo-principal">
           <div class="fale-conosco">
             <h2>Fale conosco</h2>
-            <form name="contato" action="#" method="get">
-              <div>
-                <label for="nome-completo">Nome completo: </label>
-                <input type="text" placeholder="Digite seu nome completo" name="ipt-nome-completo" required>
+            <form id="form" action="#" method="get">
+              <div class="form-content">
+                <label for="fullName">Nome completo: </label>
+                <input type="text" placeholder="Digite seu nome completo" id="fullName">
+                <a>Mensagem de erro.</a>
               </div>
-              <div>
+              <div class="form-content">
                 <label for="email">Email:</label>
-                <input type="email" placeholder="Digite seu e-mail" name="email" required>
+                <input type="email" placeholder="Digite seu e-mail" id="email">
+                <a>Mensagem de erro.</a>
               </div>
-              <div>
-                <label for="assunto">Assunto:</label>
-                <input type="text" placeholder="Assunto da mensagem" name="assunto" required>
+              <div class="form-content">
+                <label for="title">Assunto:</label>
+                <input type="text" placeholder="Assunto da mensagem" id="title">
+                <a>Mensagem de erro.</a>
               </div>
-              <div>
-                <label for="mensagem">Mensagem:</label>
-                <textarea name="mensagem" placeholder="Digite a mensagem" id="msg" cols="35" rows="4" required></textarea>
+              <div class="form-content">
+                <label for="message">Mensagem:</label>
+                <textarea id="message" placeholder="Digite a mensagem" cols="35" rows="4"></textarea>
+                <a>Mensagem de erro.</a>
               </div>
               <div>
                 <button type="submit">Enviar</button>
               </div>
             </form>
           </div>
+
+          <script src="../js/script.js"></script>
+
           <div>
             <h2>Visite a nossa clínica</h2>
             <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d467695.6197500996!2d-47.219129508469955!3d-23.680533994874242!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce5a08c3b44cb7%3A0x988947deddbd766!2sBourbon%20Convention!5e0!3m2!1spt-BR!2sbr!4v1696695040801!5m2!1spt-BR!2sbr" width="500" height="350" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"><!-- Localização --></iframe>
